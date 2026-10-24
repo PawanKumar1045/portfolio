@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bhavani Sankar portfolio placeholder site with GitLab-inspired dark theme and editable content blocks."
+    />
+    <title>Bhavani Sankar | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true">BS</span>
+          <span class="brand-text">Bhavani Sankar</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-controls="primary-menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <ul class="nav-links" id="primary-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Portfolio • GitLab-inspired UI</p>
+            <h1 id="hero-title">Hi, I'm <span class="accent-text">Bhavani Sankar</span></h1>
+            <p class="lead" id="hero-summary">
+              Professional headline placeholder. Replace this with your actual role and strengths once
+              readable resume text is available.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <!-- Place your real resume file at assets/Bhavani_Sankar_Resume.pdf -->
+              <a class="btn btn-secondary" href="assets/Bhavani_Sankar_Resume.pdf" download>
+                Download Resume
+              </a>
+            </div>
+            <p class="status-pill" role="status">
+              <span class="status-dot" aria-hidden="true"></span>
+              Open to opportunities (placeholder)
+            </p>
+          </div>
+          <aside class="hero-panel" aria-label="Profile highlights">
+            <h2>Quick Snapshot</h2>
+            <ul id="highlights-list"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container section-card">
+          <h2 id="about-title">About</h2>
+          <p id="about-text">
+            About summary placeholder. Replace with a short, authentic introduction based on verified
+            resume details.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title">Skills &amp; Technology Stack</h2>
+          <p class="section-subtitle">Replace with your real technology stack from the readable resume.</p>
+          <ul class="chips" id="skills-list"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Featured Projects</h2>
+          <p class="section-subtitle">All items below are placeholders. Replace title, outcome, links, and stack.</p>
+          <div class="card-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <h2 id="experience-title">Experience &amp; Education</h2>
+          <ol class="timeline" id="timeline-list"></ol>
+        </div>
+      </section>
+
+      <section class="section" id="certifications" aria-labelledby="cert-title">
+        <div class="container">
+          <h2 id="cert-title">Certifications &amp; Achievements</h2>
+          <div class="card-grid" id="certifications-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-card">
+          <h2 id="contact-title">Let's Connect</h2>
+          <p>
+            Replace contact details after validating your preferred channels. The links below are safe
+            placeholders.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:your.email@example.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="social-icons" aria-label="Social links">
+            <a aria-label="Email" href="mailto:your.email@example.com" title="Email">✉</a>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" title="LinkedIn">in</a>
+            <a aria-label="GitHub" href="https://github.com/" target="_blank" rel="noreferrer" title="GitHub">GH</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="current-year"></span> Bhavani Sankar. Portfolio template ready for personalization.</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
